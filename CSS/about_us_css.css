@@ -1,0 +1,177 @@
+:root {
+--primary: #2563eb;
+--secondary: #1e293b;
+--light: #f8fafc;
+--dark: #0f172a;
+--gray: #94a3b8;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+header {
+background-color: #113e68;
+color: white;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.navbar {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.logo img {
+height: 100px;
+width: auto;
+vertical-align: middle;
+}
+
+.logo-text {
+font-size: 1.5rem;
+font-weight: 700;
+color: white;
+display: inline-block;
+vertical-align: middle;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+gap: 2rem;
+position: relative;
+}
+
+nav li {
+position: relative;
+}
+nav ul li a {
+    font-size: 18px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: #e2e8f0;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+min-width: 200px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+border-radius: 5px;
+z-index: 1;
+top: 100%;
+left: 0;
+}
+
+.dropdown-content a {
+color: var(--dark);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+background-color: #f8f9fa;
+color: var(--primary);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown > a::after {
+content: "▾";
+margin-left: 5px;
+font-size: 0.8em;
+}
+
+
+main {
+max-width: 800px;
+margin: 40px auto;
+padding: 0 20px;
+}
+h1 {
+text-align: center;
+color: #2563eb;
+margin-bottom: 20px;
+}
+p {
+line-height: 1.8;
+font-size: 17px;
+margin-bottom: 20px;
+}
+
+footer {
+  height: 40px;
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+footer p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+    }
+}
