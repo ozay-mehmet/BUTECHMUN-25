@@ -146,6 +146,7 @@ For inquiries, suggestions, or feedback:
 
 - 📧 Email: [mehmetozay1204@gmail.com]
 - 🌐 GitHub: [ozay-mehmet](https://github.com/ozay-mehmet)
+- 💼 LinkedIn: [Mehmet Özay](https://www.linkedin.com/in/mehmet-ozay/)
 
 ---
 
