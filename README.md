@@ -144,7 +144,7 @@ Special thanks to the **BUTECHMUN'25** organizing team and all contributors.
 
 For inquiries, suggestions, or feedback:
 
-- 📧 Email: [your-email@example.com]
+- 📧 Email: [mehmetozay1204@gmail.com]
 - 🌐 GitHub: [ozay-mehmet](https://github.com/ozay-mehmet)
 
 ---
