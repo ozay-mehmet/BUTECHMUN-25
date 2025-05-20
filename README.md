@@ -64,7 +64,7 @@ BUTECHMUN-25/
 
 ## 🚀 Deployment
 
-The website is currently deployed using [CT8.PL Free Hosting](https://ct8.pl) under the following domain:
+The website is currently deployed using [Infinity Free Hosting](https://www.infinityfree.com/) under the following domain:
 
 🔗 **[https://butechmun.ct.ws](https://butechmun.ct.ws)**
 
