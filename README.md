@@ -123,13 +123,6 @@ Want to improve this site or customize it for another MUN conference? Feel free 
 
 ---
 
-## 📜 License
-
-This project is open-sourced under the [MIT License](LICENSE).  
-You are free to use, modify, and share with attribution.
-
----
-
 ## 📣 Credits
 
 This project is proudly developed by:
