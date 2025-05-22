@@ -31,7 +31,7 @@ This is a **static front-end website** built using core web technologies:
 
 - 🧱 **HTML5** – Page structure and layout  
 - 🎨 **CSS3** – Styling, layout, responsiveness  
-- ⚙️ **Vanilla JavaScript** – Interactive behaviors and form handling
+- ⚙️ **JavaScript** – Interactive behaviors and form handling
 
 > No frameworks, libraries, or backend systems are used — making it lightweight and fast.
 
